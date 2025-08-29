@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import "./App.scss";
 
 import logoImg from "./assets/img/logo.svg";
-import cartImg from "./assets/img/cart.svg";
-import earthImg from "./assets/img/earth.svg";
-import rocketImg from "./assets/img/roket.svg";
-import roketSmall from "./assets/img/roketsmall.svg";
+import earthImg from "./assets/img/earth.webp";
+import rocketImg from "./assets/img/roket.webp";
 import orbitImg from "./assets/img/palnets.png";
 
 function App() {
@@ -222,7 +220,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer__container">
-          <img src={roketSmall} alt="Rocket" className="footer__rocket" />
+          <img src={rocketImg} alt="Rocket" className="footer__rocket" />
           <p className="footer__text">Exciting space adventure!</p>
         </div>
       </footer>
