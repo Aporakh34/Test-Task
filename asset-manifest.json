@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Test-Task/static/css/main.784a2256.css",
+    "main.js": "/Test-Task/static/js/main.3715b0b6.js",
+    "static/media/bg-hero.webp": "/Test-Task/static/media/bg-hero.c36751c7fe2ac4e75771.webp",
+    "static/media/offers1Media.webp": "/Test-Task/static/media/offers1Media.f6f18a82b80656c86bb9.webp",
+    "static/media/offers4.webp": "/Test-Task/static/media/offers4.0e00ea7db59feb0ebf98.webp",
+    "static/media/offers4Media.svg": "/Test-Task/static/media/offers4Media.b7626d7f869c2ce26116.svg",
+    "static/media/offers3Media.webp": "/Test-Task/static/media/offers3Media.fbd1b3fdebfaf820b828.webp",
+    "static/media/earth.webp": "/Test-Task/static/media/earth.fddc475ae9b269d46fa5.webp",
+    "static/media/offers2Media.svg": "/Test-Task/static/media/offers2Media.6a2faa4c8dceab33d5cf.svg",
+    "static/media/roket.webp": "/Test-Task/static/media/roket.e795e6747be01b52a8a1.webp",
+    "static/media/logo.svg": "/Test-Task/static/media/logo.f4153131d3955bdfa609912a9f3b5caf.svg",
+    "index.html": "/Test-Task/index.html",
+    "main.784a2256.css.map": "/Test-Task/static/css/main.784a2256.css.map",
+    "main.3715b0b6.js.map": "/Test-Task/static/js/main.3715b0b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784a2256.css",
+    "static/js/main.3715b0b6.js"
+  ]
+}
