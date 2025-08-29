@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🚀 Space Adventure - Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Современная адаптивная landing page для космической тематики с анимациями и интерактивными элементами.
 
-## Available Scripts
+## ✨ Особенности
 
-In the project directory, you can run:
+- 🎨 **Современный дизайн** с космической тематикой
+- 📱 **Полностью адаптивный** (мобильные, планшеты, десктоп)
+- 🎭 **Плавные анимации** и hover-эффекты
+- 🍔 **Анимированное бургер-меню** для мобильных устройств
+- 🌈 **Градиентные эффекты** на кнопках и иконках
+- 📖 **CSS-only "Read more"** функциональность
+- 🚀 **Плавный скролл** к секциям
 
-### `npm start`
+## 🛠 Технологии
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19.1.1** - современная библиотека для UI
+- **SASS/SCSS** - продвинутые CSS стили
+- **CSS Grid & Flexbox** - современная верстка
+- **CSS Animations** - плавные переходы и анимации
+- **Responsive Design** - адаптивность для всех устройств
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Требования
 
-### `npm test`
+- **Node.js**: v22.14.0
+- **npm**: v11.4.1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Установка и запуск
 
-### `npm run build`
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/[YOUR_USERNAME]/[YOUR_REPO_NAME].git
+cd [YOUR_REPO_NAME]
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Установка зависимостей
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Запуск в режиме разработки
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Приложение откроется на [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+### 4. Сборка для продакшена
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🌐 Развертывание на GitHub Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Установка gh-pages
+```bash
+npm install --save-dev gh-pages
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Обновление homepage в package.json
+Замените `[YOUR_USERNAME]` и `[YOUR_REPO_NAME]` на ваши данные:
+```json
+"homepage": "https://yourusername.github.io/your-repo-name"
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Развертывание
+```bash
+npm run deploy
+```
 
-## Learn More
+## 📱 Адаптивность
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Desktop**: > 1024px
+- **Tablet**: 768px - 1024px  
+- **Mobile**: < 768px
+- **Mobile Small**: < 430px (с бургер-меню)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Структура проекта
 
-### Code Splitting
+```
+src/
+├── App.js          # Основной компонент
+├── App.scss        # Стили с использованием SASS
+├── index.js        # Точка входа
+└── assets/
+    └── img/        # Оптимизированные изображения (WebP)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔧 Основные компоненты
 
-### Analyzing the Bundle Size
+- **Header** - навигация с логотипом и корзиной
+- **Hero** - главная секция с призывом к действию
+- **Offers** - карточки продуктов в адаптивной сетке
+- **Embark** - секция с текстом и "Read more" функциональностью
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📊 Оптимизация
 
-### Making a Progressive Web App
+- **Изображения**: WebP формат для лучшего сжатия
+- **CSS**: Минификация и оптимизация
+- **JavaScript**: Tree shaking и code splitting
+- **Performance**: Lighthouse score 90+%
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Вклад в проект
 
-### Advanced Configuration
+1. Fork репозитория
+2. Создайте feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit изменения (`git commit -m 'Add some AmazingFeature'`)
+4. Push в branch (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 Лицензия
 
-### Deployment
+Этот проект создан для тестового задания. Все права защищены.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👨‍💻 Автор
 
-### `npm run build` fails to minify
+**Frontend Developer** - [Ваше имя]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+⭐ Если проект понравился, поставьте звездочку!
