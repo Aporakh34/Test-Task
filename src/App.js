@@ -13,12 +13,16 @@ function App() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <div className="App">
       <header className="header">
         <div className="header__container">
           <div className="header__logo">
-            <a href="#home">
+            <a href="#home" onClick={closeMobileMenu}>
               <img src={logoImg} alt="Logo" className="header__logo-icon" />
             </a>
           </div>
@@ -26,12 +30,16 @@ function App() {
           <nav className={`header__nav ${isMobileMenuOpen ? "active" : ""}`}>
             <ul className="header__nav-list">
               <li className="header__nav-item">
-                <a href="#home" data-text="Home">
+                <a href="#home" data-text="Home" onClick={closeMobileMenu}>
                   Home
                 </a>
               </li>
               <li className="header__nav-item">
-                <a href="#offers" data-text="Products">
+                <a
+                  href="#offers"
+                  data-text="Products"
+                  onClick={closeMobileMenu}
+                >
                   Products
                 </a>
               </li>
